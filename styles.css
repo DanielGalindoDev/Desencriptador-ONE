@@ -89,7 +89,7 @@ body{
 }
 
 .Salida{
-    margin: 2%  2% 1% auto;
+    margin: 2%  auto 1% auto;
     position: absolute;
     background: #ffffff;
     padding: 2% 1% 2% 1%;
@@ -148,31 +148,47 @@ body{
 
 @media screen and (max-width: 768px){
     body{
-        width: 100%;
+        padding:5%;
     }
     .Entrada{
         display: block;
-        width: 100%;
+        width: 90%;
     }
     .Informacion{
+        width: 100%;
+        text-align: left;
+        display: block;
         position: relative;
         margin-top: 10%;
+        bottom: 0;
+        left: 0;
     }
+
+    .PanelDeEntrada{
+        margin-left: 0;
+        width:100%;
+        color:#0A3871;
+    }
+
     .boton{
+        position: relative;
         display: block;
-        width: 70%;
-        padding-left: 1.2em;
-        margin-top: 0.5em;
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 0%;
     }
+
     .ImgMuneco{
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        margin: auto;
     }
     .Salida{
+        margin-left: 5%;
+        width: 80%;
         display: block;
-        margin-left: 19%;
-        width: 70%;  
+        border-radius: 2em;
     }
+
     .Salida p{
         display: block;
         margin-left: 19%;
@@ -192,33 +208,48 @@ body{
         margin: 5%;
     }
 }
-
 @media screen and (max-height: 500px){
     body{
-        width: 100%;
+        padding:5%;
     }
     .Entrada{
         display: block;
-        width: 100%;
+        width: 90%;
     }
     .Informacion{
+        width: 100%;
+        text-align: left;
+        display: block;
         position: relative;
         margin-top: 10%;
+        bottom: 0;
+        left: 0;
     }
+
+    .PanelDeEntrada{
+        margin-left: 0;
+        width:100%;
+        color:#0A3871;
+    }
+
     .boton{
+        position: relative;
         display: block;
-        width: 70%;
-        padding-left: 1.2em;
-        margin-top: 0.5em;
+        width: 100%;
+        margin-top: 10px;
+        margin-right: 0%;
     }
+
     .ImgMuneco{
         display: none;
     }
     .Salida{
+        margin-left: 5%;
+        width: 80%;
         display: block;
-        margin-left: 19%;
-        width: 70%;  
+        border-radius: 2em;
     }
+
     .Salida p{
         display: block;
         margin-left: 19%;
@@ -235,5 +266,6 @@ body{
     .TextoSalida p{
         text-align: center;
         color:#0A3871;
+        margin: 5%;
     }
 }
