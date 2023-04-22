@@ -1,3 +1,5 @@
+# Desencriptador-ONE
+
 Author: Galindo Reyes Daniel Adrian (DanielGalindoDev)
 
 Perfil: github:https://github.com/DanielGalindoDev/DanielGalindoDev
@@ -23,9 +25,5 @@ Este es un encriptador con su respectivo inveros
   
   
   Este proyecto forma parte de la formacion Oracle Next Education ONE-alura.
-  
-# Desencriptador-ONE
-# Oracle Next Education
-# Alura
 
 Proyecto 1 Oracle Next Education ONE-Alura
