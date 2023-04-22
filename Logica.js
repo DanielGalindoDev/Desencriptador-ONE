@@ -1,5 +1,5 @@
 const encriptado = {"a":"ai","e":"enter","i":"imes","o":"ober","u":"ufat","A":"Ai-3","E":"Enter-3","I":"Imes-3","O":"Ober-3","U":"Ufat-3"};
-
+alert(9);
 function RecuperarDatosEntrada(){
     let TextArea = document.querySelector("textarea");
     let texto = TextArea.value;
@@ -7,7 +7,6 @@ function RecuperarDatosEntrada(){
 }
 
 function BotonEncriptar(){
-
     let texto = RecuperarDatosEntrada();
     let CuadroDeSalida = document.getElementsByClassName("CuadroDeSalida");
     let imagen = document.getElementsByClassName("ImgMuneco");
