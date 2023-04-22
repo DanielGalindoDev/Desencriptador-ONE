@@ -1,0 +1,240 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background: #F3F5FC;
+    color:#0A3871; 
+}
+
+.Entrada{
+    width: 68.5%;
+    margin: 2.5% 0 2.5% 5%;
+    display: inline-block;
+}
+.AdeAlura{
+    display: block;
+    margin-bottom: 2em;
+}
+.PanelDeEntrada{
+    resize: none;
+    border: none;
+    background: #F3F5FC;
+    text-align: left;
+    font-size: 2em;
+    margin-left: 15%;
+    width:70%;
+    height: 6em;
+    color:#0A3871;
+}
+.PanelDeEntrada:focus, .CuadroDeSalida:focus{
+    outline: none;
+}
+
+.Informacion{
+    width: 100%;
+    position:fixed;
+    text-align: left;
+    display: block;
+    bottom: 12%;
+    left: 15%;
+}
+.Informacion p{
+    display: inline;
+}
+.Informacion samp{
+    display: inline;
+}
+
+.botones{
+    margin-top: 5%;
+}
+
+.boton{
+    width: 25%;
+    border-radius: 1em;
+    border: none;
+    text-align: center;
+    font-size: 100%;
+    color: #343a40;
+    padding: 1em;
+    margin-right: 5%;
+}
+
+#BotonEncriptar{
+    
+    background: #0A3871;
+    color: #ffffff;
+}
+#BotonEncriptar:hover{
+    transition: 400ms;
+    background: #8baad1;
+}
+
+#BotonDesencriptar{
+    background:#D8DFE8;
+    border: solid 1px;
+}
+
+#BotonDesencriptar:hover{
+    transition: 400ms;
+    background:#4a72a7;
+    color: #ffffff;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+}
+
+.Salida{
+    margin: 2%  2% 1% auto;
+    position: absolute;
+    background: #ffffff;
+    padding: 2% 1% 2% 1%;
+    width: 22%;
+    height: 85%;
+    display: inline-block;
+    border-radius: 2em;
+}
+.CuadroDeSalida{
+    display: none;
+    resize: none;
+    border: none;
+    position: relative;
+    height: 75%;
+    width: 90%;
+    top: 5%;
+    left:5%;
+    text-align: left;
+    font-size: 1.5em;
+    color: #0A3871;
+}
+.CuadroDeSalida::selection {
+    background-color: transparent;
+}
+
+.ImgMuñeco{
+    position: relative;
+    width: 100%;
+    padding-top:10%;
+}
+.TextoSalida{
+
+    text-align: center;
+    margin: 2em 1em;
+    color:#0A3871;
+}
+.Salida h1{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #343A40;
+}
+#BotonCopiar{
+    position: fixed;
+    display: none;
+    background:#D8DFE8;
+    border: solid 0.09rem;
+    bottom: 12%;
+    margin: auto;
+    width: 22%;
+}
+
+#BotonCopiar:hover{
+    transition: 400ms;
+    background:#4a72a7;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px), screen and (max-height: 500px){
+    body{
+        width: 100%;
+    }
+    .Entrada{
+        display: block;
+        width: 100%;
+    }
+    .Informacion{
+        position: relative;
+        margin-top: 10%;
+    }
+    .boton{
+        display: block;
+        width: 70%;
+        padding-left: 1.2em;
+        margin-top: 0.5em;
+    }
+    .ImgMuñeco{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .Salida{
+        display: block;
+        margin-left: 19%;
+        width: 70%;  
+    }
+    .Salida p{
+        display: block;
+        margin-left: 19%;
+        width: 70%;   
+    }
+
+    #BotonCopiar{
+        display: none;
+        position:initial;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .TextoSalida p{
+        text-align: center;
+        color:#0A3871;
+        margin: 5%;
+    }
+}
+
+@media screen and (max-height: 500px){
+    body{
+        width: 100%;
+    }
+    .Entrada{
+        display: block;
+        width: 100%;
+    }
+    .Informacion{
+        position: relative;
+        margin-top: 10%;
+    }
+    .boton{
+        display: block;
+        width: 70%;
+        padding-left: 1.2em;
+        margin-top: 0.5em;
+    }
+    .ImgMuñeco{
+        display: none;
+    }
+    .Salida{
+        display: block;
+        margin-left: 19%;
+        width: 70%;  
+    }
+    .Salida p{
+        display: block;
+        margin-left: 19%;
+        width: 70%;   
+    }
+
+    #BotonCopiar{
+        display: none;
+        position:initial;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .TextoSalida p{
+        text-align: center;
+        color:#0A3871;
+    }
+}
