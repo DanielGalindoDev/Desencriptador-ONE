@@ -10,7 +10,7 @@ function BotonEncriptar(){
 
     let texto = RecuperarDatosEntrada();
     let CuadroDeSalida = document.getElementsByClassName("CuadroDeSalida");
-    let imagen = document.getElementsByClassName("ImgMuñeco");
+    let imagen = document.getElementsByClassName("ImgMuneco");
     
     if (texto != ""){
         imagen[0].style.display="none";
@@ -38,7 +38,7 @@ function CuadroVacio(){
 
     let CuadroDeSalida = document.getElementsByClassName("CuadroDeSalida");
     if (window.innerHeight > 500){
-        let imagen = document.getElementsByClassName("ImgMuñeco");
+        let imagen = document.getElementsByClassName("ImgMuneco");
         imagen[0].style.display="block";
     }
     document.querySelector(".Salida h1").style.display="block";
@@ -54,7 +54,7 @@ function BotonDesencriptar(){
 
     let texto = RecuperarDatosEntrada();
     let CuadroDeSalida = document.getElementsByClassName("CuadroDeSalida");
-    let imagen = document.getElementsByClassName("ImgMuñeco");
+    let imagen = document.getElementsByClassName("ImgMuneco");
     
     if (texto != ""){
         imagen[0].style.display="none";
